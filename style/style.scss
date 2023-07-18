@@ -1,11 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .section {
-  max-width: 108rem;
+  max-width: 120rem;
   margin-inline: auto;
 }
 .container {
@@ -70,7 +75,7 @@
   .container {
     $p-inline-val: 3rem;
     $p-block-val: 11.25rem;
-    background-color: blue;
+    // background-color: blue;
     margin-inline: auto;
     padding-inline: $p-inline-val;
     padding-block: $p-block-val;
